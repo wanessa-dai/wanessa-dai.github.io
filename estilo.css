@@ -7,19 +7,16 @@ html, body {
 header {
     background-color:black;
     color:white;
-    height: 90px;
+    height:96px;
     width: 100%;
-    position: fixed;
     z-index: 10;
     
 }
 #logo {
-    width: 90px;
+    width: 80px;
     position: absolute;
     top: 10px;
-    margin-left: 5%;
-    
-    
+    margin-left: 5%;   
 }
 #menu {
     color:white;
@@ -30,35 +27,40 @@ header {
 }
 li {
     float: left;
+    margin-top: 30px;
+    margin-left: 15px;
     padding: 20 10 20 10;
+    font-family: 'Anton', sans-serif;
 }
 li:hover {
     background-color:green;
 }
 #ods_3 {
     background:green;
-    height: 100%;
+    height: 150%;
     text-align: center;
     background-size: cover;
 }
 #titulo {
     color: #FFFAF0;
-    padding-top: 20%;
-    font-size: 80px;
-    line-height: 0.6;
+    padding-top: 8%;
+    font-size: 60px;
+    line-height: 0.3;
+
     font-family: 'Anton', sans-serif;
     
 }
 #subtitulo {
     color: white;
-    margin-left: 20%;
-    margin-right: 20%;
-    border-top: 3px solid white;
+    margin-left: 30%;
+    margin-right:30%;
+    border-top: 1px solid white;
     text-shadow: 1px 1px black;
 }
 #acao {
     color: white;
     border: 1px white solid;
+    margin-top: 0px;
     padding: 10px 20px 10px 20px ;
 }
 .icone {
@@ -71,7 +73,7 @@ section {
 .destaque {
     background-color: #f7f7f7;
 }
-.imgeco {
+.imgsaud {
     width: 90%;
     height: 30%;
 }
@@ -103,7 +105,7 @@ footer {
     background-color: green;
     float: left;
     width: 100%;
-    height: 30%;
+    height: 10%;
     color: white;
 }
 @media all and (max-width: 768px) {
@@ -121,7 +123,7 @@ footer {
        width: 100%;
        position: relative;
        text-align: center;
-       padding: 0px;
+       padding: 10px;
    }
    #logo {
        margin-left: 0px;
